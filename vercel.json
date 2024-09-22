@@ -8,15 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/llama3",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/history",
-      "dest": "/index.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "index.js"
     }
   ]
+}
