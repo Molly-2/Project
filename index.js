@@ -4,7 +4,7 @@ const Groq = require('groq-sdk'); // Hypothetical SDK
 
 const app = express();
 const port = 3000;
-const groqApiKey = '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'; // Replace with your actual API key
+const groqApiKey = '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'; // Replace with your actual API key
 
 const groq = new Groq({ apiKey: groqApiKey });
 let chatHistory = [];
